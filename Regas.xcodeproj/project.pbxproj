@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16FEE8837BEAAC5528C221FD /* libPods-Regas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0700044E282FD7214F11E03F /* libPods-Regas.a */; };
+		1801E5171FFA602000A65115 /* LocalMusicShowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801E5161FFA601F00A65115 /* LocalMusicShowTableViewCell.swift */; };
+		1801E5191FFA604100A65115 /* LocalMusicShowTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1801E5181FFA604100A65115 /* LocalMusicShowTableViewController.swift */; };
+		1801E51B1FFA6FAA00A65115 /* music in Resources */ = {isa = PBXBuildFile; fileRef = 1801E51A1FFA6FA800A65115 /* music */; };
+		180ED96A1FF7453C00E4CED0 /* VideoCutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180ED9691FF7453C00E4CED0 /* VideoCutViewController.swift */; };
+		1861A7501FDD20DB00F19AB6 /* MusicCutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861A74F1FDD20DB00F19AB6 /* MusicCutViewController.swift */; };
+		1861A7521FDD35A200F19AB6 /* MusicRepertoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861A7511FDD35A200F19AB6 /* MusicRepertoryTableViewController.swift */; };
+		1861A7541FDD35DB00F19AB6 /* MusicRepertoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861A7531FDD35DB00F19AB6 /* MusicRepertoryTableViewCell.swift */; };
+		1885A5461FF28F9E00873C0D /* VideoRepertoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885A5451FF28F9E00873C0D /* VideoRepertoryTableViewCell.swift */; };
+		1885A5481FF28FC400873C0D /* VideoRepertoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885A5471FF28FC400873C0D /* VideoRepertoryTableViewController.swift */; };
+		1885A54A1FF2C85800873C0D /* MergeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885A5491FF2C85800873C0D /* MergeViewController.swift */; };
+		18990FA71FDBFA3F004F9E63 /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18990FA61FDBFA3F004F9E63 /* VideoTableViewController.swift */; };
+		18990FA91FDBFA80004F9E63 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18990FA81FDBFA80004F9E63 /* VideoTableViewCell.swift */; };
+		18990FB61FDC2E4F004F9E63 /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18990FB51FDC2E4F004F9E63 /* MusicTableViewCell.swift */; };
+		18B327C81FEE477E00E6056C /* music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B327C71FEE477E00E6056C /* music.swift */; };
+		18C6F7181FD95CD800658B01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6F7171FD95CD800658B01 /* AppDelegate.swift */; };
+		18C6F71A1FD95CD800658B01 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6F7191FD95CD800658B01 /* MusicViewController.swift */; };
+		18C6F71D1FD95CD800658B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C6F71B1FD95CD800658B01 /* Main.storyboard */; };
+		18C6F71F1FD95CD800658B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C6F71E1FD95CD800658B01 /* Assets.xcassets */; };
+		18C6F7221FD95CD800658B01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C6F7201FD95CD800658B01 /* LaunchScreen.storyboard */; };
+		18C6F72D1FD95CD800658B01 /* RegasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6F72C1FD95CD800658B01 /* RegasTests.swift */; };
+		18E094031FF8AD3800FB4B8D /* MergeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E094021FF8AD3800FB4B8D /* MergeTableViewCell.swift */; };
+		18EFFAA21FF2656700E47CEA /* video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EFFAA11FF2656700E47CEA /* video.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C6F7291FD95CD800658B01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C6F70C1FD95CD800658B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C6F7131FD95CD800658B01;
+			remoteInfo = Regas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0700044E282FD7214F11E03F /* libPods-Regas.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Regas.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1801E5161FFA601F00A65115 /* LocalMusicShowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMusicShowTableViewCell.swift; sourceTree = "<group>"; };
+		1801E5181FFA604100A65115 /* LocalMusicShowTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMusicShowTableViewController.swift; sourceTree = "<group>"; };
+		1801E51A1FFA6FA800A65115 /* music */ = {isa = PBXFileReference; lastKnownFileType = folder; path = music; sourceTree = "<group>"; };
+		180ED9691FF7453C00E4CED0 /* VideoCutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCutViewController.swift; sourceTree = "<group>"; };
+		1861A74F1FDD20DB00F19AB6 /* MusicCutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCutViewController.swift; sourceTree = "<group>"; };
+		1861A7511FDD35A200F19AB6 /* MusicRepertoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRepertoryTableViewController.swift; sourceTree = "<group>"; };
+		1861A7531FDD35DB00F19AB6 /* MusicRepertoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicRepertoryTableViewCell.swift; sourceTree = "<group>"; };
+		1885A5451FF28F9E00873C0D /* VideoRepertoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRepertoryTableViewCell.swift; sourceTree = "<group>"; };
+		1885A5471FF28FC400873C0D /* VideoRepertoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRepertoryTableViewController.swift; sourceTree = "<group>"; };
+		1885A5491FF2C85800873C0D /* MergeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeViewController.swift; sourceTree = "<group>"; };
+		18990FA61FDBFA3F004F9E63 /* VideoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
+		18990FA81FDBFA80004F9E63 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		18990FB51FDC2E4F004F9E63 /* MusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
+		18B327C71FEE477E00E6056C /* music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = music.swift; sourceTree = "<group>"; };
+		18C6F7141FD95CD800658B01 /* Regas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Regas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C6F7171FD95CD800658B01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18C6F7191FD95CD800658B01 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		18C6F71C1FD95CD800658B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C6F71E1FD95CD800658B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C6F7211FD95CD800658B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C6F7231FD95CD800658B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C6F7281FD95CD800658B01 /* RegasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C6F72C1FD95CD800658B01 /* RegasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegasTests.swift; sourceTree = "<group>"; };
+		18C6F72E1FD95CD800658B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E094021FF8AD3800FB4B8D /* MergeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTableViewCell.swift; sourceTree = "<group>"; };
+		18EFFAA11FF2656700E47CEA /* video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = video.swift; sourceTree = "<group>"; };
+		18F6468B1FF5219700B825E7 /* Regas-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Regas-Bridging-Header.h"; sourceTree = "<group>"; };
+		1970A9719229768E361E3B49 /* Pods-Regas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Regas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Regas/Pods-Regas.release.xcconfig"; sourceTree = "<group>"; };
+		B6581D2ED27FD2BBA5C93321 /* Pods_RegasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RegasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D843DC89A123091285787879 /* Pods-Regas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Regas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Regas/Pods-Regas.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C6F7111FD95CD800658B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FEE8837BEAAC5528C221FD /* libPods-Regas.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C6F7251FD95CD800658B01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C6F70B1FD95CD800658B01 = {
+			isa = PBXGroup;
+			children = (
+				18F6468B1FF5219700B825E7 /* Regas-Bridging-Header.h */,
+				18C6F7161FD95CD800658B01 /* Regas */,
+				18C6F72B1FD95CD800658B01 /* RegasTests */,
+				18C6F7151FD95CD800658B01 /* Products */,
+				22CE65557EDAD2D0A775B5D1 /* Pods */,
+				B6E2280E532B2278D3AC6905 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18C6F7151FD95CD800658B01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C6F7141FD95CD800658B01 /* Regas.app */,
+				18C6F7281FD95CD800658B01 /* RegasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C6F7161FD95CD800658B01 /* Regas */ = {
+			isa = PBXGroup;
+			children = (
+				1801E51A1FFA6FA800A65115 /* music */,
+				18C6F7171FD95CD800658B01 /* AppDelegate.swift */,
+				18B327C71FEE477E00E6056C /* music.swift */,
+				18EFFAA11FF2656700E47CEA /* video.swift */,
+				18C6F7191FD95CD800658B01 /* MusicViewController.swift */,
+				1885A5451FF28F9E00873C0D /* VideoRepertoryTableViewCell.swift */,
+				1885A5471FF28FC400873C0D /* VideoRepertoryTableViewController.swift */,
+				1861A7511FDD35A200F19AB6 /* MusicRepertoryTableViewController.swift */,
+				1861A7531FDD35DB00F19AB6 /* MusicRepertoryTableViewCell.swift */,
+				1861A74F1FDD20DB00F19AB6 /* MusicCutViewController.swift */,
+				180ED9691FF7453C00E4CED0 /* VideoCutViewController.swift */,
+				1885A5491FF2C85800873C0D /* MergeViewController.swift */,
+				1801E5161FFA601F00A65115 /* LocalMusicShowTableViewCell.swift */,
+				1801E5181FFA604100A65115 /* LocalMusicShowTableViewController.swift */,
+				18E094021FF8AD3800FB4B8D /* MergeTableViewCell.swift */,
+				18990FA61FDBFA3F004F9E63 /* VideoTableViewController.swift */,
+				18990FB51FDC2E4F004F9E63 /* MusicTableViewCell.swift */,
+				18990FA81FDBFA80004F9E63 /* VideoTableViewCell.swift */,
+				18C6F71B1FD95CD800658B01 /* Main.storyboard */,
+				18C6F71E1FD95CD800658B01 /* Assets.xcassets */,
+				18C6F7201FD95CD800658B01 /* LaunchScreen.storyboard */,
+				18C6F7231FD95CD800658B01 /* Info.plist */,
+			);
+			path = Regas;
+			sourceTree = "<group>";
+		};
+		18C6F72B1FD95CD800658B01 /* RegasTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C6F72C1FD95CD800658B01 /* RegasTests.swift */,
+				18C6F72E1FD95CD800658B01 /* Info.plist */,
+			);
+			path = RegasTests;
+			sourceTree = "<group>";
+		};
+		22CE65557EDAD2D0A775B5D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D843DC89A123091285787879 /* Pods-Regas.debug.xcconfig */,
+				1970A9719229768E361E3B49 /* Pods-Regas.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6E2280E532B2278D3AC6905 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6581D2ED27FD2BBA5C93321 /* Pods_RegasTests.framework */,
+				0700044E282FD7214F11E03F /* libPods-Regas.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C6F7131FD95CD800658B01 /* Regas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C6F7311FD95CD800658B01 /* Build configuration list for PBXNativeTarget "Regas" */;
+			buildPhases = (
+				6D760F7A5E1CEF050D13F1E2 /* [CP] Check Pods Manifest.lock */,
+				18C6F7101FD95CD800658B01 /* Sources */,
+				18C6F7111FD95CD800658B01 /* Frameworks */,
+				18C6F7121FD95CD800658B01 /* Resources */,
+				F37E1622F3F576E78F34FC82 /* [CP] Embed Pods Frameworks */,
+				5F8CDE8763FDA24194F8256E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Regas;
+			productName = Regas;
+			productReference = 18C6F7141FD95CD800658B01 /* Regas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C6F7271FD95CD800658B01 /* RegasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C6F7341FD95CD800658B01 /* Build configuration list for PBXNativeTarget "RegasTests" */;
+			buildPhases = (
+				18C6F7241FD95CD800658B01 /* Sources */,
+				18C6F7251FD95CD800658B01 /* Frameworks */,
+				18C6F7261FD95CD800658B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C6F72A1FD95CD800658B01 /* PBXTargetDependency */,
+			);
+			name = RegasTests;
+			productName = RegasTests;
+			productReference = 18C6F7281FD95CD800658B01 /* RegasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C6F70C1FD95CD800658B01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = njuics;
+				TargetAttributes = {
+					18C6F7131FD95CD800658B01 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					18C6F7271FD95CD800658B01 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18C6F7131FD95CD800658B01;
+					};
+				};
+			};
+			buildConfigurationList = 18C6F70F1FD95CD800658B01 /* Build configuration list for PBXProject "Regas" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C6F70B1FD95CD800658B01;
+			productRefGroup = 18C6F7151FD95CD800658B01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C6F7131FD95CD800658B01 /* Regas */,
+				18C6F7271FD95CD800658B01 /* RegasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C6F7121FD95CD800658B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C6F7221FD95CD800658B01 /* LaunchScreen.storyboard in Resources */,
+				18C6F71F1FD95CD800658B01 /* Assets.xcassets in Resources */,
+				1801E51B1FFA6FAA00A65115 /* music in Resources */,
+				18C6F71D1FD95CD800658B01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C6F7261FD95CD800658B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F8CDE8763FDA24194F8256E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Regas/Pods-Regas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D760F7A5E1CEF050D13F1E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Regas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F37E1622F3F576E78F34FC82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Regas/Pods-Regas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C6F7101FD95CD800658B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180ED96A1FF7453C00E4CED0 /* VideoCutViewController.swift in Sources */,
+				1801E5191FFA604100A65115 /* LocalMusicShowTableViewController.swift in Sources */,
+				1885A5481FF28FC400873C0D /* VideoRepertoryTableViewController.swift in Sources */,
+				18990FB61FDC2E4F004F9E63 /* MusicTableViewCell.swift in Sources */,
+				1885A5461FF28F9E00873C0D /* VideoRepertoryTableViewCell.swift in Sources */,
+				1801E5171FFA602000A65115 /* LocalMusicShowTableViewCell.swift in Sources */,
+				1861A7501FDD20DB00F19AB6 /* MusicCutViewController.swift in Sources */,
+				18C6F71A1FD95CD800658B01 /* MusicViewController.swift in Sources */,
+				1861A7521FDD35A200F19AB6 /* MusicRepertoryTableViewController.swift in Sources */,
+				1861A7541FDD35DB00F19AB6 /* MusicRepertoryTableViewCell.swift in Sources */,
+				18B327C81FEE477E00E6056C /* music.swift in Sources */,
+				18990FA91FDBFA80004F9E63 /* VideoTableViewCell.swift in Sources */,
+				18990FA71FDBFA3F004F9E63 /* VideoTableViewController.swift in Sources */,
+				18C6F7181FD95CD800658B01 /* AppDelegate.swift in Sources */,
+				1885A54A1FF2C85800873C0D /* MergeViewController.swift in Sources */,
+				18E094031FF8AD3800FB4B8D /* MergeTableViewCell.swift in Sources */,
+				18EFFAA21FF2656700E47CEA /* video.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C6F7241FD95CD800658B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C6F72D1FD95CD800658B01 /* RegasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C6F72A1FD95CD800658B01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C6F7131FD95CD800658B01 /* Regas */;
+			targetProxy = 18C6F7291FD95CD800658B01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C6F71B1FD95CD800658B01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C6F71C1FD95CD800658B01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C6F7201FD95CD800658B01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C6F7211FD95CD800658B01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C6F72F1FD95CD800658B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18C6F7301FD95CD800658B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C6F7321FD95CD800658B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D843DC89A123091285787879 /* Pods-Regas.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JQV3753P8;
+				INFOPLIST_FILE = Regas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nju.edu.nju.Regas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Regas-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C6F7331FD95CD800658B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1970A9719229768E361E3B49 /* Pods-Regas.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5JQV3753P8;
+				INFOPLIST_FILE = Regas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nju.edu.nju.Regas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Regas-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18C6F7351FD95CD800658B01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RegasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nju.edu.nju.RegasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Regas.app/Regas";
+			};
+			name = Debug;
+		};
+		18C6F7361FD95CD800658B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RegasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nju.edu.nju.RegasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Regas.app/Regas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C6F70F1FD95CD800658B01 /* Build configuration list for PBXProject "Regas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C6F72F1FD95CD800658B01 /* Debug */,
+				18C6F7301FD95CD800658B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C6F7311FD95CD800658B01 /* Build configuration list for PBXNativeTarget "Regas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C6F7321FD95CD800658B01 /* Debug */,
+				18C6F7331FD95CD800658B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C6F7341FD95CD800658B01 /* Build configuration list for PBXNativeTarget "RegasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C6F7351FD95CD800658B01 /* Debug */,
+				18C6F7361FD95CD800658B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C6F70C1FD95CD800658B01 /* Project object */;
+}
